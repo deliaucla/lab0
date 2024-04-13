@@ -18,6 +18,7 @@ static int __init proc_count_init(void)
 	return 0;
 }
 
+// This is a comment
 static void __exit proc_count_exit(void)
 {
 	proc_remove(entry);
